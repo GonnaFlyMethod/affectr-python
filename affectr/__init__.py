@@ -13,8 +13,8 @@ def get_version():
 
 from .client import Client
 
-#import as clientlib so that we don't shadow with the client variable
-import client as clientlib
+# import as clientlib so that we don't shadow with the client variable
+# import client as clientlib
 
 client = None
 """The client to use. Does not exist until
